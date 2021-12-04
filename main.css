@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+}
+
+@font-face {
+	font-family: main-font;
+	src: url(res/font.ttf);
+}
+
+@font-face {
+	font-family: main-font-light;
+	src: url(res/font-light.ttf);
+}
+
+@font-face {
+	font-family: main-font-bold;
+	src: url(res/font-bold.ttf);
+}
+
+.container{
+	font-family: main-font;
+	margin: 20px auto;
+	max-width: 900px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+br {
+	display: block;
+	margin: 7px 0;
+}
+
+p {
+	font-size: 160%
+}
+
+.red-container {
+	font-family: main-font;
+	margin: 20px auto;
+	max-width: 900px;
+	padding-left: 15px;#ffeba8
+	padding-right: 15px;
+	border-radius: 10px;
+	background-color: #ff3849;
+	color: #FFFFFF;
+}
+
+code {
+	background-color: #ffffff;
+	border-radius: 7px;
+	padding: 6px;
+}
