@@ -14,54 +14,46 @@
 			</div>
 			<p style="font-size: 160%; font-family: main-font-light">
 				<strong>Dog</strong> is a simple CLI program similar to GNU cat, but with more functionality.
-				It can display file contents in 4 diffrent colors and count words/lines of those files.
-				First version was written in Rust, but current version was written in Ruby, because
-				using Rust was a bad experience for me.
+				It can display file content in diffrent colors and their info (word count, line count, character/letter count)
 			</p>
 
 			<br><br><br>
 
 			<h1 style="font-family: main-font-bold">Program info</h1>
 			<p style="font-family: main-font-light">
-			<strong>Version:</strong> 1.1 | 1.0 -> 1.1 (counting words/lines of a file)
+			<strong>Version:</strong> 1.2.1 | 1.2 -> 1.2.1 (fixed cli args bugs)
 			<p style="font-family: main-font-light">
-			<strong>Year of release:</strong> 2021 </p>
+			<strong>Year of release:</strong> 1.0 (2021), 1.1 (2021), 1.2 (2022)</p>
 			<p style="font-family: main-font-light">
-			<strong>Platforms:</strong> GNU/Linux, MacOS (not tested)</p>
+			<strong>Platforms:</strong>GNU/Linux, Windows & MacOS (compile from source)</p>
 			<p style="font-family: main-font-light">
-			<strong>Programming languages:</strong> Ruby</p>
+			<strong>Programming languages:</strong> Go</p>
 			<br><br><br>
 
 			<h1 style="font-family: main-font-bold">Installing on GNU/Linux</h1>
 			<p style="font-size: 160%; font-family: main-font-light">
-			First, you need to have Ruby installed. After that download the dog-installer script, make it executable and run it as a root (sudo).
-			It will install or remove dog from your system.
-			</p>
-			<br><br><br>
-
-			<h1 style="font-family: main-font-bold">Installing on MacOS</h1>
-			<p style="font-size: 160%; font-family: main-font-light">
-			For those operating systems there is no install script so you need to install dog manually.
-			Here is how to do it.
+			For installing dog just run this command in your terminal.
 			</p>
 			<br>
-			
+			<code style="font-family: main-font-light; font-size: 18px;">
+				wget https://tekronet.github.io/scripts/install-dog.sh && chmod +x ./install-dog.sh && ./install-dog.sh && rm ./install-dog.sh
+			</code>
+			<br><br>
 			<p style="font-size: 160%; font-family: main-font-light">
-			<strong>1.</strong> Download and install <a href="https://www.ruby-lang.org">Ruby</a>
+				If you want to remove Dog run this command.
 			</p>
-			
-			<p style="font-size: 160%; font-family: main-font-light">
-			<strong>2.</strong> Download dog dependencies by running <code>gem install colored</code>			
-			</p>
-			
-			<p style="font-size: 160%; font-family: main-font-light">
-			<strong>3.</strong> Download <a href="https://raw.githubusercontent.com/Tekronet/donwloads/main/dog/dog" download>dog</a>
-			 and make it executable.
-			</p>
+			<br>
+			<code style="font-family: main-font-light; font-size: 18px;">
+				wget https://tekronet.github.io/scripts/remove-dog.sh && chmod +x ./remove-dog.sh && ./remove-dog.sh && rm ./remove-dog.sh
+			</code>
+			<br><br><br>
 
+			<h1 style="font-family: main-font-bold">Installing on MacOS & Windows</h1>
 			<p style="font-size: 160%; font-family: main-font-light">
-			<strong>4.</strong> Add dog to PATH or move it to folders that are alerady in PATH so you can execute it from everywhere.
+			If you want to install Dog on MacOS or Windows you need to compile it from source.
+			Source code and instrcutions on how do it are on <a href="https://github.com/Tekronet/dog">Dog github page</a>
 			</p>
+			<br>
 
 			<br><br><br>
 			
